@@ -8,7 +8,6 @@ from pyrate_limiter import (
     BucketFullException,
     Duration,
     Limiter,
-    MemoryListBucket,
 )
 
 if ALLOW_EXCL:
