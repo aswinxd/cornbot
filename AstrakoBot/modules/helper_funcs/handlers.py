@@ -7,7 +7,6 @@ from telegram.ext import CommandHandler, MessageHandler, Filters
 from pyrate_limiter import (
     BucketFullException,
     Duration,
-    RequestRate,
     Limiter,
     MemoryListBucket,
 )
